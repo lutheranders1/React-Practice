@@ -1,34 +1,31 @@
-# mern-auth
-Minimal full-stack MERN app with authentication using passport and JWTs.
+# eCommerce App MERN Stack
 
-This project uses the following technologies:
+An eCommerce app with shopping cart built with MERN stack
 
-- [React](https://reactjs.org) and [React Router](https://reacttraining.com/react-router/) for frontend
-- [Express](http://expressjs.com/) and [Node](https://nodejs.org/en/) for the backend
-- [MongoDB](https://www.mongodb.com/) for the database
-- [Redux](https://redux.js.org/basics/usagewithreact) for state management between React components
+Libraries used for the front end are React, React Router, Redux, Redux Thunk, Axios, React Bootstrap, React Helmet, React Paypal Button
 
+Libraries used for the back end are Express, Express Async Handler, Mongoose, Multer, Morgan, Bcryptjs, Jsonwebtoken
 
-## Configuration
+Part of the MERN eCommerce From Scratch course by Brad Traversy
 
-Make sure to add your own `MONGOURI` from your [mLab](http://mlab.com) database in `config/keys.js`.
+![alt text](https://raw.githubusercontent.com/keremcanb/ecommerce-app-mern-stack/master/uploads/ss1.jpg)
 
-```javascript
-module.exports = {
-  mongoURI: "YOUR_MONGO_URI_HERE",
-  secretOrKey: "secret"
-};
-```
+---
 
-## Quick Start
+![alt text](https://raw.githubusercontent.com/keremcanb/ecommerce-app-mern-stack/master/uploads/ss2.jpg)
 
-```javascript
-// Install dependencies for server & client
-npm install && npm run client-install
+---
 
-// Run client & server with concurrently
-npm run dev
+![alt text](https://raw.githubusercontent.com/keremcanb/ecommerce-app-mern-stack/master/uploads/ss3.jpg)
 
-// Server runs on http://localhost:5000 and client on http://localhost:3000
-```
+---
 
+![alt text](https://raw.githubusercontent.com/keremcanb/ecommerce-app-mern-stack/master/uploads/ss4.jpg)
+
+---
+
+![alt text](https://raw.githubusercontent.com/keremcanb/ecommerce-app-mern-stack/master/uploads/ss5.jpg)
+
+---
+
+![alt text](https://raw.githubusercontent.com/keremcanb/ecommerce-app-mern-stack/master/uploads/ss6.jpg)

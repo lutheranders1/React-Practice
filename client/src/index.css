@@ -1,53 +1,55 @@
-*,
-*:before,
-*:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+main {
+  min-height: 80vh;
 }
 
-html, body {
-  width: 100%;
-  min-height: 100vh;
-  line-height: 1.15;
-  font-family: 'Nunito Sans', sans-serif;
+h3 {
+  padding: 1rem 0;
 }
 
-.App {
-  min-height: 100vh;
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
   display: flex;
-  flex-direction: column;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
 }
 
-h1, h2, h3, h4, h4, h5, h6 {
-  color: #252525;
-  font-weight: 400;
-}
-
-a {
-  color: #252525;
-  text-decoration: none;
-}
-
-table {
-  border-collapse: collapse;
-}
-
-button.product-button {
-  background-color: #222;
-  border: none;
-  border-radius: 4px;
+.carousel-caption h2 {
   color: #fff;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 11px;
-  outline: none;
-  cursor: pointer;
-  height: 36px;
 }
 
-/*   width: 10%; */
-
-button:active {
-  transform: scale(1.01);
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+}
+.carousel a {
+  margin: 0 auto;
+}
+.spinner {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
 }
