@@ -5,10 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "serve": "npx nodemon index.js",
-    "seed": "node db/seeds.js",
-    "start": "node index.js",
-    "build": "cd frontend  && npm start && npm run build"
+    "serve": "nodemon index.js",
+    "start": "nodemon index.js",
+    "build": "cd frontend  && npm run build && npm start"
   },
   "keywords": [],
   "author": "",
