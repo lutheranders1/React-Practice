@@ -1,0 +1,28 @@
+@import "colors";
+
+.movie-list-div {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+  background-color: $mid-brown;
+  .movie-list {
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    li {
+      list-style: none;
+      margin: 10px auto;
+      border: 3px solid $butter-yellow;
+      border-radius: 10px;
+      box-shadow: 10px 10px $light-toast;
+      div {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}

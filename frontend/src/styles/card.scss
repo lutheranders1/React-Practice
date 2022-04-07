@@ -1,0 +1,26 @@
+@import "colors";
+
+.movie-card {
+  padding: 0.8rem;
+  flex-basis: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $light-grey-brown;
+  .card-img-top .card-image {
+    border: $mid-brown;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    .card-title {
+      text-align: center;
+      color: $mid-dark-brown;
+    }
+    .card-text {
+      text-align: center;
+      color: $mid-dark-brown;
+    }
+  }
+}
