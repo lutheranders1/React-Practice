@@ -1,0 +1,9 @@
+{
+  "env": {
+    "DB_USER": "lutheranders",
+    "DB_PASSWORD": "k83khC5QmMp9twf",
+    "DB_NAME": "myFirstDatabase",
+    "GOOGLE_API_KEY": "AIzaSyDuI0DxtnSDvb0x4LU6CinjtsgWZ0dOIIE",
+    "JWT_KEY": "secret"
+  }
+}
