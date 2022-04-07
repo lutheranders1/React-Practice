@@ -1,5 +1,5 @@
 {
-  "name": "mern_movie_review",
+  "name": "uwatch-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,8 +8,8 @@
     "serve": "npx nodemon index.js",
     "seed": "node db/seeds.js",
     "start": "node index.js",
-    "build": "cd front-end && npm start && npm run build"
-    },
+    "build": "cd frontend && npm start && npm run build"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
